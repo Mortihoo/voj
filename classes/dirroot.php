@@ -6,18 +6,18 @@
  * Time: 17:38
  */
 
-define('DB_HOST', '127.0.0.1');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'Morjoe123');
-define('DB_NAME', 'Voj');
-define('HDU_USER_NAME', 'zhbitwho');
+define('DB_HOST', '');
+define('DB_USER', '');
+define('DB_PASSWORD', '');
+define('DB_NAME', '');
+define('HDU_USER_NAME', '');
 define('PROJECT_PATH', '');
 define('USER_CODE_FILE_PATH', '/var/www/html/voj/usercode');
 define('COOKIE_DOMAIN', 'morjoe.cc');
-define('COOKIE_DOMAIN_IP', '47.94.217.119');
-define("CONTEST_ID", '32221');
-define('CONTEST_PASSWORD', 'qwertyuiop');
-define('CONTEST_STARTTIME', '2017-08-06 17:00:00');
-define('CONTEST_ENDTIME', '2017-08-06 20:00:00');
+define('COOKIE_DOMAIN_IP', '');
+define("CONTEST_ID", '');
+define('CONTEST_PASSWORD', '');
+define('CONTEST_STARTTIME', '');
+define('CONTEST_ENDTIME', '');
 include_once 'send_post.php';
 include_once 'filelock.php';
